@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xem anime online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a class="logo" href="/">MÊ HOẠT HÌNH</a>
+                    </div>
+                    <div class="navbar-left">
+                        <div class="navbar-search">
+                            <div class="search-box">
+                                <input type="text" name="search-box" placeholder="Tìm kiếm" autocomplete="off">
+                                <i class="icon fas fa-search"></i>
+                            </div>
+                            <div class="search-result" id="search-result">
+                                <div class="overlay"></div>
+                                <div class="result-noitem">Nhập tên phim để tìm kiếm</div>
+                            </div>
+                        </div>
+                        <div class="navbar-menu">
+                            <li class="navbar-menu-item">
+                                <a href=""> Chiếu Rạp</a>
+                            </li>
+                            <li class="navbar-menu-item">
+                                <a href=""> Hoạt Hình Lẻ</a>
+                            </li>
+                            <li class="navbar-menu-item">
+                                <a href=""> Dài Tập</a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="player-wrapper">
+            <div class="player">
+                <video class="player-video" autoplay preload="auto" playsinline webkit-playsinline src="https://scontent.cdninstagram.com/v/t66.36240-6/10000000_465242855080366_5807385196057085053_n.mp4?_nc_cat=105&ccb=1-5&_nc_sid=985c63&efg=eyJybHIiOjE3MjksInJsYSI6NDA5NiwidmVuY29kZV90YWciOiJvZXBfaGQifQu00253Du00253D&_nc_ohc=ZdtO73CDgkwAX-PvAZo&rl=1729&vabr=1153&_nc_ht=scontent-mxp2-1.xx&edm=APRAPSkEAAAA&oh=00_AT-GjYCCALLvELhmTKOyNkePxDgy6iNyqYasmpPtoXyWlg&oe=6200DAEF"></video>
+                <div class="player-control-bar">
+                    <div class="player-control player-play-control">
+                        <i class="fas fa-play"></i>
+                        <div class="player-control-tip">
+                            <span>Phát</span>
+                        </div>
+                    </div>
+                    <div class="player-control player-rewind-control">
+                        <i class="fas fa-backward"></i>
+                        <div class="player-control-tip">
+                            <span>Lùi 10s</span>
+                        </div>
+                    </div>
+                    <div class="player-control player-forward-control">
+                        <i class="fas fa-forward"></i>
+                        <div class="player-control-tip">
+                            <span>Tới 10s</span>
+                        </div>
+                    </div>
+                    <div class="player-control player-volume-control">
+                        <div class="player-control player-volume-toggle"><i class="fas fa-volume-up"></i></div>
+                        <div class="player-volume-level">
+                            <div class="volume-holder">
+                                <div class="volume-slider"></div>
+                                <div class="volume-current"></div>
+                                <div class="volume-handle"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="player-control player-current-time player-time"><span>00:00</span></div>
+                    <div class="player-progress-control">
+                        <div class="player-progress-holder">
+                            <input type="range" class="player-progress-background" value="0" step="1" min="0" max="100" />
+                        </div>
+                        <div class="player-control-tip" style=""><span></span></div>
+                    </div>
+                    <div class="player-control player-duration player-time"><span>-:-</span></div>
+                    <div class="player-control player-setting-control">
+                        <i class="fas fa-cog"></i>
+                        <div class="player-control-tip">
+                            <span>Tuỳ chỉnh</span>
+                        </div>
+                    </div>
+                    <div class="player-control player-fullscreen-control">
+                        <i class="fas fa-expand"></i>
+                        <div class="player-control-tip">
+                            <span>Toàn màn hình</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="film-info">
+            <div class="film-info-header">
+                <h1 class="film-info-title">
+                    Linh Hồn Bạc: Hồi Kết
+                </h1>
+                <div class="film-info-views">
+                    Gintama: The Final
+                </div>
+                <div class="film-info-views">
+                    <span>Lượt xem: 5,636 </span>
+                </div>
+            </div>
+            <div class="film-content">
+                <div class="film-info-genre">
+                    Thời lượng: 104 phút
+                </div>
+                <div class="film-info-desciption">
+                    Được chuyển thể từ phần cuối của thương hiệu anime/manga hành động, bựa lầy bậc nhất - Gintama: The Very Final từ Warner Bros. Pictures sẽ là cuộc chiến “khủng” nhất mà Gintoki, Takasugi và Katsura phải tham gia để bảo vệ trái đất khỏi sự hủy diệt và
+                    cứu lấy quốc gia của Samurai. Hàng loạt màn chiến đấu đỉnh cao, siêu hài hước, bựa lầy nhưng không kém phần cảm động. Phần phim kỉ niệm 15 năm này được đánh giá cao không kém gì bom tấn Thanh Gươm Diệt Quỷ tại các fandom Nhật Bản!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p> © Copyright 2022 .All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
